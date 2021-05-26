@@ -46,12 +46,12 @@ a project folder ahead of time.
 4. Find the VSC program and open it.
 5. Open project folder by clicking on the blue "Open Folder" button or press "File > Open Folder...".
 
-![screenshot of VSC new window](images\vsc-screenshot-1.jpg)
+![screenshot of VSC new window](\images\vsc-screenshot-1.jpg)
 
 ## Creating a new repository in Github
 Once you have created and logged in to your Github account, you will be greeted with the dashboard.
 
-![image of github dashboard](images\github-screenshot-1.jpg)
+![image of github dashboard](\images\github-screenshot-1.jpg)
 
 You can click on the green button labelled "new" on the left of the page to create a new repository. Alternatively, you can 
 click on your profile icon on the top-right of the page, select "Your repositories" on the dropdown and press the same 
@@ -59,7 +59,7 @@ green button.
 
 After clicking on it, you would be directed to the "Create a new repository" page. 
 
-![image of github create a new repository page](images\github-screenshot-2.jpg)
+![image of github create a new repository page](\images\github-screenshot-2.jpg)
 
 Do the following:
 1. Ensure that the "Owner" section has your Github account name.
@@ -72,7 +72,7 @@ Do the following:
 
 Github would create a repository and lead you to the webpage. **Keep this page opened**.
 
-![image of github repository page before linking](images\github-screenshot-3.jpg)
+![image of github repository page before linking](\images\github-screenshot-3.jpg)
 
 ## Initialising Git in your computer
 
@@ -84,17 +84,17 @@ You can access the in-app terminal by clicking on "Terminal > New Terminal".
 
 The terminal of your choice does not matter. Most users would prefer to use Bash as their terminal but for demonstration, this guide would be using `cmd`.
 
-![image of vsc with CMD loaded into the in-app terminal](images\vsc-screenshot-2.jpg)
+![image of vsc with CMD loaded into the in-app terminal](\images\vsc-screenshot-2.jpg)
 
 > **IMPORTANT: Ensure that your terminal directory is directed into your project folder.**
 
 ### Checking the terminal directory
 There are a few ways to check but this would be the easiest way to do:
 1. Key in `dir` into your terminal. If you are in a new empty project folder, there should be no files in them. If you find that you are not in your project folder, look at step 2.
-![image of VSC terminal with DIR command entered](images\vsc-screenshot-4.jpg)
+![image of VSC terminal with DIR command entered](\images\vsc-screenshot-4.jpg)
 
 2. If you keyed in `dir` and see your project folder, chances are, your terminal directory is incorrect. Key in `cd` followed by your project folder name. 
-![image of VSC terminal with CD and DIR commands entered](images\vsc-screenshot-5.jpg)
+![image of VSC terminal with CD and DIR commands entered](\images\vsc-screenshot-5.jpg)
 
 
 ### Step-by-step initialisation with explanation
