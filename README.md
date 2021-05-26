@@ -18,21 +18,27 @@ If they have not done so, they can visit the following sites:
 
 ## Content
 - Main contents:
-    - [Creating new project folder and opening in VSC](#)
-    - [Creating a new repository in Github](#)
-    - [Initialising Git in your computer](#)
-        - [Checking the terminal directory](#)
-        - [Step-by-step initialisation with explanation](#)
-    - ["Please tell me who you are" error](#)
-    - [Pushing to your repository throughout your project timeline](#)
+    - [Creating new project folder and opening in VSC](#creating-new-project-folder-and-opening-in-vsc)
+    - [Creating a new repository in Github](#creating-a-new-repository-in-github)
+    - [Initialising Git in your computer](#initialising-git-in-your-computer)
+        - [Checking the terminal directory](#checking-the-terminal-directory)
+        - [Step-by-step initialisation with explanation](#step-by-step-initialisation-with-explanation)
+    - ["Please tell me who you are" error](#please-tell-me-who-you-are-error)
+    - [Pushing to your repository throughout your project timeline](#pushing-to-your-repository-throughout-your-project-timeline)
 - Additional contents:
-    - [Multi-line commits](#)
-        - [Using line breaks](#)
-        - [Using vim](#)
-    - [Cloning and pushing (personal) repositories](#)
-    - [Branching](#)
+    - [Multi-line commits](#multi-line-commits)
+        - [Using line breaks](#multi-line-using-line-breaks)
+        - [Using vim](#multi-line-using-vim)
+    - [Cloning and pushing (personal) repositories](#cloning-and-pushing-personal-repositories)
+    - [Branching](#branching)
+    - [Additional helpful Git commands](#additional-helpful-git-commands)
+- [Afterword](#afterword)
+    - [License and usage](#license-and-usage)
+    - [Disclaimer](#disclaimer)
+    - [Support and contribute this guide](#support-this-guide)
 
 ## Creating new project folder and opening in VSC
+###### [Back to top](#introduction)
 There are a few ways you can create a project folder and open up VSC. The simplest for a beginner however, is to simply create 
 a project folder ahead of time. 
 
@@ -49,6 +55,7 @@ a project folder ahead of time.
 ![screenshot of VSC new window](images\vsc-screenshot-1.jpg)
 
 ## Creating a new repository in Github
+###### [Back to top](#introduction)
 Once you have created and logged in to your Github account, you will be greeted with the dashboard.
 
 ![image of github dashboard](images\github-screenshot-1.jpg)
@@ -75,6 +82,7 @@ Github would create a repository and lead you to the webpage. **Keep this page o
 ![image of github repository page before linking](images\github-screenshot-3.jpg)
 
 ## Initialising Git in your computer
+###### [Back to top](#introduction)
 
 On the repository webpage, focus only on the first section which says "…or create a new repository on the command line".
 
@@ -164,6 +172,7 @@ Once you are sure that you are in the correct directory, copy and paste the code
 
 ## "Please tell me who you are..." error
 ##### Source Reference : [Git: “please tell me who you are” error](https://stackoverflow.com/questions/11656761/git-please-tell-me-who-you-are-error)
+###### [Back to top](#introduction)
 
 
 After entering `git commit -m ...`, you may encounter the above mentioned error. This would only happen if you are committing your codes for the first time (or accidentally removed the config).
@@ -187,6 +196,7 @@ To remedy this, simply follow the instructions.
 
 
 ## Pushing to your repository throughout your project timeline
+###### [Back to top](#introduction)
 You would mainly require three codes after intialising Git in your project folder. It is advisable to frequently commit and push your codes whenever you reach a significant checkpoint in your code.
 
 1. Add **ALL** codes to staging area:
@@ -202,9 +212,10 @@ You would mainly require three codes after intialising Git in your project folde
     git push
     ```
 
-Alternatively, you would want to look at creating [multi-line commits]() to give more context to your commits.
+Alternatively, you would want to look at creating [multi-line commits](#multi-line-commits) to give more context to your commits.
 
 ## Multi-line commits
+###### [Back to top](#introduction)
 To better describe or give a breakdown of the changes you may have made, you may want to use a multi-line commit. You should still give a short, precise and descriptive commit message
 and not a lengthy essay. Remember, those reading your changes would not have the time to read a lengthy essay.
 
@@ -231,6 +242,7 @@ Once you are done, press the `esc` key on your keyboard and type in `:wq`. This 
 You can read more about `vim` here: [How do I save changes in vim](https://www.cyberciti.biz/faq/how-do-i-save-changes-in-vim/)
 
 ## Cloning and pushing (personal) repositories
+###### [Back to top](#introduction)
 Run the following code to clone your repository:
 ```
 git clone <your repo directory here>
@@ -242,6 +254,7 @@ that folder it created to clone and change directory (`cd <folder name>`) into i
 
 ## Branching
 ##### Source reference: [Check, create or edit branches](https://git-scm.com/docs/git-branch)
+###### [Back to top](#introduction)
 
 ### Creating a branch:
 ```
@@ -263,6 +276,7 @@ git merge development <#there won't be any conflicts now>
 ```
 
 ## Additional helpful git commands
+###### [Back to top](#introduction)
 ### Check on the current status 
 ##### Source reference: [git-scm git status](https://git-scm.com/docs/git-status)
 ```
@@ -284,6 +298,7 @@ git remote -v
 ```
 
 ## Afterword
+###### [Back to top](#introduction)
 ### License and usage
 License: Public Domain and Open Source.
 Usage: Feel free to fork, download or copy my guide. Do attribute it back to me. 
@@ -294,3 +309,5 @@ Additionally I do not claim to be a master in this field. I wrote what I underst
 
 ### Support this guide
 Give it a star? I don't know what it does though lol.
+
+Additionally, you can help improve this guide by pull requests. Here are some guides from GitHub if it's your first time doing it! (Don't worry, i'm new to it too. Let's all learn together) : [Creating a pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request), [About pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
