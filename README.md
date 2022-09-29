@@ -44,7 +44,7 @@ a project folder ahead of time.
 
 1. Find the destination where you wish to create your project folder. 
 2. Create a new **folder**. Name the folder with you project name. The norm would be to key in the date you started your project 
-    followed by your project name. Example: `25May2021-vsc-github-guide`. 
+    followed by your project name. Example: `20210525-vsc-github-guide`. 
 
 > **NOTE: Notice that there are no space in-between the words. Instead, dashes are being used to replace them. Subtituting 
 > spaces with either dashes or underscores is a common practice in programming as it reduces any chance of potential errors.**
@@ -71,8 +71,8 @@ After clicking on it, you would be directed to the "Create a new repository" pag
 Do the following:
 1. Ensure that the "Owner" section has your Github account name.
 2. Key in a unique name in the "Repository name" section. Again, the norm would be to key in the date you started your project 
-    followed by your project name. Example: `25May2021-vsc-github-guide`. Additionally you could put in the time as well. 
-    Example: `25May2021-2200-vsc-github-guide`.
+    followed by your project name. Example: `20210525-vsc-github-guide`. Additionally you could put in the time as well. 
+    Example: `20210525-2200-vsc-github-guide`.
 3. Leave the radio button selected to "Public".
 4. Leave the three checkboxes (add readme, add gitignore and choose license) unchecked.
 5. When you are sure of everything, click on the green "Create repository" button.
