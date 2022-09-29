@@ -118,7 +118,7 @@ Once you are sure that you are in the correct directory, copy and paste the code
     echo "<this is your project name>" >> README.md
     ```
 
-    This code would create a README.md file with your project title. You can leave this step out **If you already have some files created in your project".
+    This code would create a README.md file with your project title. You can leave this step out **If you already have some files created in your project**.
 
 2. Add README.md:
     ```
